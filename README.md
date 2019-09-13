@@ -1,4 +1,4 @@
-# REST API
+# REST API Abstraction
 
 This small app is an experiment that attempts to abstract/generalize the controller code. I am doing this by taking an object composition approach to modulize the process. This will allow the developer to choose the object "modules" they want to add to their controllers rather than write controllers from scratch every time. 
 

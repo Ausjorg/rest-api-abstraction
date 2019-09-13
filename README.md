@@ -6,7 +6,7 @@ The object composition approach is a good way to get rid of the "gorilla holding
 
 WARNING: This is not a complete app. There is no authentication or password encryption enabled. Proper data checks have not been put in place either. This project is experimental. I will be activley updating this repo which mean you will more than likely see weird naming conventions at times for testing purposes.
 
-## Build Setup
+## Initialize
 
 ``` bash
 # install dependencies

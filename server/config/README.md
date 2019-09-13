@@ -1,5 +1,6 @@
-``` bash
-# if you want to create a config file for DBs other than sqlite3
+if you want to create a config file for DBs other than sqlite3 copy and paste the json below into the config.json file
+
+``` json
 {
   "development": {
     "username": "username",

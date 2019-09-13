@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "rest-api-abstraction",
   "version": "1.0.0",
-  "description": "express api",
+  "description": "express api that utilizes a object composition approach to managing the controller",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

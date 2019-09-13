@@ -4,6 +4,8 @@ This small app is an experiment that attempts to abstract/generalize the control
 
 The object composition approach is a good way to get rid of the "gorilla holding the banana" problem that comes with classical inheiritance. This method allows devs to easily customize endpoints by adding their own factory functions that return objects to the controllers.
 
+WARNING: This is not a complete app. There is no authentication or password encryption enabled. Proper data checks have not been put in place either. This project is experimental. I will be activley updating this repo which mean you will more than likely see weird naming conventions at times for testing purposes.
+
 ## Build Setup
 
 ``` bash

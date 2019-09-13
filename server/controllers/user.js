@@ -1,5 +1,5 @@
 import model from '../models';
-import { create } from "../middleware/crud"
+import { create } from "../mixins/crud"
 const { User } = model;
 
 const Users = (req, res) => {

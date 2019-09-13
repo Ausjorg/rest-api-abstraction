@@ -1,5 +1,5 @@
 import model from '../models';
-import { list, create, remove, modify, listOne } from "../middleware/crud"
+import { list, create, remove, modify, listOne } from "../mixins/crud"
 
 const { Book, User } = model;
 

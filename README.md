@@ -1,6 +1,8 @@
 # REST API
 
-This small app is an experiment that attempts to abstract/generalize the controller code. I am doing this by taking an object composition approach to modulize the process. This will allow the developer to choose the object "modules" they want to add to their controllers. This is a good way to get rid of the "gorilla holding the banana" problem that comes with classical inheiritance. This method allows devs to easily customize endpoints by adding their own factory functiosn that return objects to the controllers.
+This small app is an experiment that attempts to abstract/generalize the controller code. I am doing this by taking an object composition approach to modulize the process. This will allow the developer to choose the object "modules" they want to add to their controllers rather than write controllers from scratch every time. 
+
+The object composition approach is a good way to get rid of the "gorilla holding the banana" problem that comes with classical inheiritance. This method allows devs to easily customize endpoints by adding their own factory functions that return objects to the controllers.
 
 ## Build Setup
 

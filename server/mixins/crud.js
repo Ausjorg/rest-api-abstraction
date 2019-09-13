@@ -9,10 +9,13 @@ function notFound(res) {
 }
 
 function itemExists(state, option) {
-    return option.findByPk(getId(state.req.params)).then(data => {
-        if (data == null) return true
-        return false
-    }).catch(error => state.res.status(400).send(error))
+    if (option != undefined) {
+        return option.findByPk(getId(state.req.params)).then(data => {
+            if (data == null) return true
+            return false
+        }).catch(error => state.res.status(400).send(error))
+    }
+    return false
 }
 
 const create = (state, option) => ({
